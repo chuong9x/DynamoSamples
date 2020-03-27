@@ -35,7 +35,7 @@ namespace SampleLibraryUI.Examples
             // Create a number of DynamoDropDownItem objects 
             // to store the items that we want to appear in our list.
 
-            var newItems = new List<DynamoDropDownItem>()
+            List<DynamoDropDownItem> newItems = new List<DynamoDropDownItem>()
             {
                 new DynamoDropDownItem("Tywin", 0),
                 new DynamoDropDownItem("Cersei", 1),
